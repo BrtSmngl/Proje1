@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+  color: #eee;
+  background-color: #000;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 30px;
+}
+
+
+.logo{
+    width: 250px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.anasayfaButon a button{
+    height: 60px;
+    width: 60px;
+    font-size: 50px;
+    background-color: black;
+    border: 0px;
+    border-left: 1px solid white;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #eee;
+    font-weight: 400;
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 4px;
+  }
+
+  h4 {
+    margin-top: 1em;
+    color: #eee;
+    font-size: 150%;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  button {
+    display: inline;
+    border: 0;
+    padding: 4px;
+  }
+
+  input {
+    display: block;
+    width: 98%;
+  height: 30px; 
+    margin-top: 1.0em;
+   padding: 4px;
+}
+
+
+.kayitTablosu{
+    margin-left:auto; 
+    margin-right:auto;
+    
+}
+
+.kayitTablosu tr td{
+display: flex;
+justify-content: space-evenly;
+padding: 15px;
+}
+
+

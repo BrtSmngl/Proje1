@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'MuseoModerno', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.header{
+    
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 160px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 120px;
+    height: 90px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.logo img{
+    width: 170%;
+}
+
+.ListeLogin{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+    width: 150px;
+}
+
+.ListeLogin li{
+    width: 150%;
+}
+
+.listeMenu{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    margin: 15px 75px;
+    border-top: 1px solid gray;
+}
+
+.listeMenu li{
+    height: 35px;
+    width: 190px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.listeMenu li:hover{
+    background-color: rgb(30, 30, 30);
+}
+
+.listeMenu li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.Login{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ListeLogin li button{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+    font-size: 200%;
+    border: 0px;
+}
+
+.ListeLogin li button:hover{
+    background-color: rgb(30, 30, 30);
+}
+
+.ListeLogin li input{
+    background-color: rgb(0, 0, 0);
+    height: 35px;
+    width: 200px;
+    font-size: medium;
+    color: whitesmoke;
+    padding: 10px;
+    border: 0;
+}
+
+.ListeLogin li button i{
+    size: 150%;
+}
+
+.icerik img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.icerik{
+    position: relative;
+
+}
+
+.reklamBaslik{
+    position: absolute;left:110px;top:250px;
+    font-family: 'MuseoModerno', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 60px;
+    color: whitesmoke;
+    text-shadow: -5px 2px 8px black;
+
+}
+
+.reklamParagraf{
+    position: absolute;left:110px;top:350px;
+    font-size: 16px;
+    color: whitesmoke;
+    text-shadow: -5px 2px 8px black;
+
+}
+
+.reklamButon{
+    position: absolute;left:110px;top:450px;
+    height: 40px;
+    width: 90px;
+    background-color: #0078D6;
+    color: whitesmoke;
+    border: 0px;
+}
+
+.reklamButon:hover{
+    background-color:#0062ad ;
+}
+
+.canliDestek{
+    position: fixed;bottom:40px;right:40px;
+    background-color: rgb(54, 54, 54);
+    border: 0px;
+    border-radius: 10px;
+}
+
+.canliDestek:hover{
+    background-color: rgb(93, 93, 93);
+}
+
+.canliDestek i{
+    font-size: 40px;
+    padding: 10px 5px;
+}
+
+.sayfaSonu{
+    height: 40px;
+    background-color: black;
+    align-items: center;
+
+}
+
+.sayfaSonu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 10px;
+
+}
+
+.sayfaSonu ul li:hover{
+    background-color: rgb(35, 35, 35);
+}
+
+.sayfaSonu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
